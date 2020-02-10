@@ -655,12 +655,17 @@
   resolved "https://registry.npmjs.org/@cloudbase/adapter-interface/-/adapter-interface-0.2.0.tgz#bcddc21e3f9fc3167b99cd3e2df24cbb97e07a82"
   integrity sha512-zdjMf4+MeHvBgGDgpqm1DrA2o+qt/kbzyWXEySIBGW1Pk8wGQAQaarCPC9lda24thq1lPZwGS7N+kNdgb2F4Hw==
 
-"@cloudbase/adapter-qq_mp@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/@cloudbase/adapter-qq_mp/-/adapter-qq_mp-0.1.0.tgz#d4615bbf37235dce3d74549cb970081f766c08a0"
-  integrity sha512-zcW0KYT9+n+N75yR7s3JyxXjlHW0fvvHj4ZwGsx9FD/dAKOfGcQiKp1RopLQWdwJNFzMsqGPYWNaTjw60zEfaQ==
+"@cloudbase/adapter-interface@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.npmjs.org/@cloudbase/adapter-interface/-/adapter-interface-0.4.0.tgz#c57935b503e7bface4b151df63a87dc564ae9907"
+  integrity sha512-vbNQlr4NK5mdsMr3elk4/OdE/opLpZB+8JPTXAQM4/ldcTZtmb1Dnt3T2g9u5LSHDlRjdzyeM5ARvVqUq+2bmw==
+
+"@cloudbase/adapter-qq_mp@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/@cloudbase/adapter-qq_mp/-/adapter-qq_mp-0.2.0.tgz#87d1d5dff6bd30b0d7d7f2dc811bd1403231ed54"
+  integrity sha512-0/lL9zdkGnXeSxDV+N9wIGkeEZKADvyPFVTLwWiWIXQbwes86N245UaNlakakG2pOtWVvxIk3w4tTV9f+y7JzQ==
   dependencies:
-    "@cloudbase/adapter-interface" "^0.2.0"
+    "@cloudbase/adapter-interface" "^0.4.0"
     "@cloudbase/adapter-wx_mp" "^0.2.1"
 
 "@cloudbase/adapter-wx_mp@^0.2.1":

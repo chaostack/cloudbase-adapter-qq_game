@@ -98,7 +98,7 @@ class QQGameWebSocket {
 function genAdapter() {
   // 小程序无sessionStorage
   const adapter: SDKAdapterInterface = {
-    root: {},
+    root: qq,
     reqClass: QQRequest,
     wsClass: QQGameWebSocket as WebSocketContructor,
     localStorage: qqMpStorage,
@@ -112,6 +112,11 @@ const adapter = {
   isMatch,
   runtime: 'qq_game'
 };
+
+try{
+  qq.adapter = adapter;
+  qq.tcbAdapterQQGame = adapter;
+}catch(e){}
 
 export {adapter};
 export default adapter;
