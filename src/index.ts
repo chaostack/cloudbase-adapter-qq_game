@@ -1,4 +1,4 @@
-import { QQRequest, qqMpStorage } from '@cloudbase/adapter-qq_mp';
+import { QQRequest, qqMpStorage } from 'cloudbase-adapter-qq_mp';
 import { StorageType, WebSocketContructor, SDKAdapterInterface, WebSocketInterface } from '@cloudbase/adapter-interface';
 
 declare const qq;
